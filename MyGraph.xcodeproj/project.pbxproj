@@ -18,6 +18,7 @@
 		573EC97C17F9F3830092EACD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 573EC97B17F9F3830092EACD /* Default-568h@2x.png */; };
 		573EC97F17F9F3830092EACD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 573EC97E17F9F3830092EACD /* ViewController.m */; };
 		573EC98217F9F3830092EACD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 573EC98017F9F3830092EACD /* ViewController.xib */; };
+		573EC98A17F9F4660092EACD /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 573EC98917F9F4660092EACD /* GraphView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		573EC97D17F9F3830092EACD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		573EC97E17F9F3830092EACD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		573EC98117F9F3830092EACD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		573EC98817F9F4660092EACD /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
+		573EC98917F9F4660092EACD /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				573EC97D17F9F3830092EACD /* ViewController.h */,
 				573EC97E17F9F3830092EACD /* ViewController.m */,
 				573EC98017F9F3830092EACD /* ViewController.xib */,
+				573EC98817F9F4660092EACD /* GraphView.h */,
+				573EC98917F9F4660092EACD /* GraphView.m */,
 				573EC96C17F9F3830092EACD /* Supporting Files */,
 			);
 			path = MyGraph;
@@ -176,6 +181,7 @@
 				573EC97217F9F3830092EACD /* main.m in Sources */,
 				573EC97617F9F3830092EACD /* AppDelegate.m in Sources */,
 				573EC97F17F9F3830092EACD /* ViewController.m in Sources */,
+				573EC98A17F9F4660092EACD /* GraphView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
